@@ -76,6 +76,9 @@ nav{
     color: black;
 }
 
+/*central-part top&bottom*/
+
+/*top*/
 .box-1{
     height: 350px;
     margin-top: 15px;
@@ -86,6 +89,7 @@ nav{
     position: relative;
 }
 
+/*bottom*/
 .box-2{
     height: 500px;
     margin-top: 15px;
