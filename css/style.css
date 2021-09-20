@@ -82,13 +82,12 @@ nav{
     display: inline-block;
 }
 
-.img{
+.hero img{
     position: relative;
 }
 
 .box-2{
-    height: 450px;
-    background: blue;
+    height: 500px;
     margin-top: 15px;
 }
 
@@ -99,6 +98,8 @@ nav{
 
 .sidebar-left img{
     position: relative;
+    width: 100%;
+    height: 180px;
 }
 
 .sidebar-right{
@@ -108,6 +109,9 @@ nav{
 
 .sidebar-right img{
     position: relative;
+    width: 100%;
+    height: 180px;
+    
 }
 
 .central-section{
@@ -117,16 +121,18 @@ nav{
 
 .central-section img{
     position: relative;
+    width: 100%;
+    height: 180px;
 }
 
 .up-section{
     width: 100%;
-    background: rgb(0, 102, 255);
     height: 65px;
 }
 
 .up-section-title{
-
+    padding-top: 5px;
+    font-size: 18px;
 }
 
 .pad-rlt{
@@ -135,13 +141,11 @@ nav{
 
 .sidebar-left, .sidebar-right{
     width: 19%;
-    background:rgb(0, 102, 255) ;
     height: 360px;
 }
 
 .central-section{
     width: 60%;
-    background: rgb(0, 102, 255);
     height: 360px;
     margin-left: 1%;
 }
@@ -150,7 +154,15 @@ nav{
 
 footer{
     height: 35px;
-    background: blueviolet;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.credit{
+    text-align: center;
+    padding-top: 8px;
+}
+
+span{
+    color: orangered;
 }
