@@ -52,6 +52,10 @@ header{
     width: 165px;
 }
 
+nav{
+    padding-bottom: 40px;
+}
+
 .main-menu li{
     display: inline-block;
     list-style: none;
@@ -71,12 +75,15 @@ header{
 .main-menu li a:hover{
     color: black;
 }
-/*main content*/
 
 .box-1{
-    height: 300px;
-    background: #cece00;
-    margin-top: 40px;
+    height: 350px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.img{
+    position: relative;
 }
 
 .box-2{
@@ -87,20 +94,39 @@ header{
 
 .sidebar-left {
     float: left;
+    display: inline-block;
+}
+
+.sidebar-left img{
+    position: relative;
 }
 
 .sidebar-right{
     float: right;
+    display: inline-block;
+}
+
+.sidebar-right img{
+    position: relative;
 }
 
 .central-section{
     float: left;
+    display: inline-block;
+}
+
+.central-section img{
+    position: relative;
 }
 
 .up-section{
     width: 100%;
     background: rgb(0, 102, 255);
     height: 65px;
+}
+
+.up-section-title{
+
 }
 
 .pad-rlt{
