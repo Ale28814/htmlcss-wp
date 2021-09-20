@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    font-weight: 300;
+}
+
 /*content*/
 
 .container{
@@ -62,6 +66,10 @@ header{
     text-decoration: none;
     color: #868686;
     text-transform: uppercase;
+}
+
+.main-menu li a:hover{
+    color: black;
 }
 /*main content*/
 
