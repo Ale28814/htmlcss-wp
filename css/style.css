@@ -1,0 +1,122 @@
+/*first setting*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*content*/
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.px-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.debug-box{
+    height: 70px;
+    background: rgba(255, 255, 255, .1);
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+/*header*/
+
+header{
+    height: 90px;
+    margin-top: 15px;
+}
+
+.brand{
+    display: inline-block;
+}
+
+.brand img{
+    width: 165px;
+}
+
+.main-menu li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.main-menu li:last-child{
+    margin-right: 0;
+}
+
+.main-menu li a{
+    text-decoration: none;
+    color: #868686;
+    text-transform: uppercase;
+}
+/*main content*/
+
+.box-1{
+    height: 300px;
+    background: #cece00;
+    margin-top: 40px;
+}
+
+.box-2{
+    height: 450px;
+    background: blue;
+    margin-top: 15px;
+}
+
+.sidebar-left {
+    float: left;
+}
+
+.sidebar-right{
+    float: right;
+}
+
+.central-section{
+    float: left;
+}
+
+.up-section{
+    width: 100%;
+    background: rgb(0, 102, 255);
+    height: 65px;
+}
+
+.pad-rlt{
+    margin-top: 10px;
+}
+
+.sidebar-left, .sidebar-right{
+    width: 19%;
+    background:rgb(0, 102, 255) ;
+    height: 360px;
+}
+
+.central-section{
+    width: 60%;
+    background: rgb(0, 102, 255);
+    height: 360px;
+    margin-left: 1%;
+}
+
+/*footer*/
+
+footer{
+    height: 35px;
+    background: blueviolet;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
